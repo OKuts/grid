@@ -1,0 +1,19 @@
+nav {
+  height: 100px;
+  background: cornflowerblue;
+  display: flex;
+  align-items: center;
+
+  a {
+    padding: 2rem;
+    text-decoration: none;
+
+    &:hover {
+      background-color: blanchedalmond;
+    }
+  }
+
+  .active {
+    font-weight: bold;
+  }
+}
